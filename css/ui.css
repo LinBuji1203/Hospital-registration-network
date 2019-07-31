@@ -109,6 +109,7 @@
 	background: #fff url(../img/bg-menu.jpg) center no-repeat;
 	left:190px;
 	top:0;
+	z-index:20;
 }
 .ui-menu-item-detail-group{
 	padding-bottom: 20px;

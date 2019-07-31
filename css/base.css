@@ -1,0 +1,304 @@
+p{
+    margin:0px;
+    padding: 0px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+select{
+    border:none;
+    outline: none;
+}
+/* #top模块内样式 */
+.top{
+    color:#868686;
+    line-height: 30px;
+    font-size: 13px;
+}
+.top a{
+    color:#71caf5;
+    padding-left:10px;
+}
+.top .call{
+    float: left;
+    padding-left: 20px;
+    background:url(../img/icon-call.png) no-repeat center left;
+    /* 垂直居中，水平靠左 */
+}
+.top .welcome{
+    float: right;
+}
+/* #header模块内样式 */
+
+.header .logo{
+    width:351px;
+    height:68px;
+    padding:12px 0;
+    display: inline-block;
+}
+.header .logo img{
+    width:100%;
+    height:100%;
+}
+.header .search{
+    width:326px;
+    height:38px;
+    position: absolute;
+    /* 根据上一个有position:relative属性的父级div来进行绝对定位 */
+    right:0px;
+    top:29px;
+    /* background-color:orange;  */
+}
+/* #nav模块内样式 */
+.nav .menu{
+    width:130px;
+    padding-right:30px;
+    background-color: #1fa4f0;
+    position: relative;
+}
+.nav .link{
+    display: inline-block;
+    float:left;
+    padding-left:30px;
+    line-height: 36px;
+    color:#fff;
+    font-size:16px;
+    min-width:80px;
+    text-align: center;
+}
+.nav .right{
+    float:right;
+}
+.nav a:hover{
+    color:#1fa4f0;
+}
+.nav .menu .menu-list{
+    width:100%;
+    height: 421px;
+    position:absolute;
+    left:0;
+    top:36px;
+    background-color:#1fa4f0;
+}
+/* #banner模块内样式 */
+.banner-search{
+    background-color: #fafafa;
+}
+.banner-help .caption,
+.banner-search .caption{
+    height: 22px;
+    padding:15px 0;
+    text-align:center;
+}
+.banner-help .caption .text,
+.banner-search .caption .text{
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 28px;
+    color:#fec009;
+    font-size:16px;
+    background:url(../img/icon-help.png) no-repeat 0 0;
+}
+.banner-search .form{
+    height: 150px;
+}
+
+.banner-search .form .line{
+    padding-bottom: 9px;
+    text-align: center;
+}
+.banner-search .form .line select{
+    width:170px;
+    font-size:12px;
+    z-index:0;
+    border:1px solid #dcdddd;
+    height: 26px;
+    line-height: 26px;
+    padding: 2px 0;
+    color:#666;
+}
+.banner-search .submit{
+    height: 32px;
+    text-align: center;
+}
+.banner-search .submit .button{
+    width:108px;
+    height: 33px;
+    background-color: #fecd09;
+    font-size:14px;
+    color:#fff;
+    border-radius: 3px;
+    border:none;
+}
+.banner-help{
+    background-color: #fafafa;
+}
+.banner-help .caption .text{
+    color:#00b3ea;
+    background-position: 0 -23px;
+}
+.banner-help .link{
+    color:#00b3ea;
+    display: inline-block;
+    width:86px;
+    height: 26px;
+    line-height: 26px;
+    font-size:14px;
+    text-align: center;
+    padding: 0 0 8px 26px;
+}
+
+/* #content模块内样式 */
+.content-tab{
+    background:none;
+    /* 去掉背景 */
+}
+.content-tab .caption{
+    height: 34px;
+    line-height: 34px;
+    background-color: #f5f6fa;
+}
+.content-tab .caption .item{
+    display: block;
+    width:112px;
+    height: 34px;
+    text-align: center;
+    float: left;
+    color:#00b3ea;
+
+}
+.content-tab .caption  .item_focus{
+    background-color: #60bff2;
+    color:#fff;
+}
+.content-tab .block{
+    border:1px solid #f4f6fa;
+    height: 452px;
+}
+.content-tab .block-caption{
+    height: 26px;
+    line-height: 26px;
+    padding: 8px;
+    border-bottom: 1px solid #f4f6fa;
+    
+}
+.content-tab .block-caption-item{
+    display: block;
+    padding: 0 10px;
+    font-size:12px;
+    color:#4c4948;
+    float: left;
+}
+.content-tab .block-caption-item_foucs{
+    background-color: #60bff2;
+    color:#fff;
+}
+
+.content-tab .block-content{
+    padding: 16px 12px;
+}
+.content-tab .block-content .block-list .item{
+    float: left;
+    width:216px;
+    height: 102px;
+    padding: 0 20px 10px 120px;
+    position: relative;
+    font-size:12px;
+}
+.content-tab .block-content .block-list .item img{
+    width:110px;
+    height:98px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.content-tab .block-content .block-list .item-name{
+    color: #036eb7;
+    font-size:14px;
+    line-height: 21px;
+    padding-top: 13px;
+}
+.content-tab .block-content .block-list .item-level{
+    float: right;
+    font-size:12px;
+    color: #979797;
+}
+.content-tab .block-content .block-list .item-phone,
+.content-tab .block-content .block-list .item-address{
+    line-height: 18px;
+    padding-bottom: 4px;
+    color: #666;
+}
+/* 医院文案列表 -容器 */
+
+.content-tab .block-content .block-text-list .item{
+    display: block;
+    width: 351px;
+    height:27px;
+    font-size:14px;
+    color:#666;
+    padding-top:8px;
+    float:left;
+    border-bottom:1px dashed #dcdddd;
+}
+/*偶数个的样式*/
+.content-tab .block-content .block-text-list .item:nth-child(2n){
+    margin-left:13px;
+}
+
+.content-tab .block-content .block-more{
+    display: block;
+    line-height: 55px;
+    text-align: center;
+    color:#82c0ff;
+    font-size:14px;
+}
+
+
+
+.content-close,
+.content-news{
+    background-color: #fff;
+    border:1px solid #f4f6fa;
+}
+.content-close .caption,
+.content-news .caption{
+    height:39px;
+    line-height: 39px;
+    background-color: #f4f6fa;
+    text-indent: 20px;
+    /* 缩进 */
+    color:#fec009;
+    font-size:15px;
+   
+}
+.content-close .more,
+.content-news .more{
+    float: right;
+    padding-right: 22px;
+    font-size:12px;
+    color:#868686;
+}
+
+.content-close .list,
+.content-news .list{
+    padding: 15px 20px 13px 35px;
+    background:url(../img/list-yellow.jpg) no-repeat 17px 20px;
+    font-size:12px;
+    line-height: 29px;
+}
+.content-close .link,
+.content-news .link{
+    display: block;
+    color:#969696;
+}
+
+.footer{
+    line-height: 70px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+
+}
